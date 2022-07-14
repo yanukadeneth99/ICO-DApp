@@ -261,7 +261,7 @@ const Home: NextPage = () => {
             {renderButton()}
           </div>
         ) : (
-          <div className="flex flex-col space-y-6">
+          <div className="w-1/2 flex flex-col justify-center items-center space-y-10 backdrop-blur-md p-12 border-2 border-gray-200/30 shadow-lg">
             <h1 className="text-4xl text-gray-800">
               You have not connected wallet
             </h1>
